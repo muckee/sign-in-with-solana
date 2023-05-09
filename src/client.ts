@@ -1,5 +1,6 @@
 import nacl from "@toruslabs/tweetnacl-js";
 import base58 from "bs58";
+import { Buffer } from "buffer";
 import nodeCrypto from "crypto";
 import { isUri } from "valid-url";
 
