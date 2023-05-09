@@ -1,5 +1,5 @@
 {
-  "name": "@web3auth/sign-in-with-solana",
+  "name": "@muckee/sign-in-with-solana",
   "version": "2.0.0",
   "description": "",
   "main": "dist/signInWithSolana.cjs.js",
@@ -27,6 +27,7 @@
   "dependencies": {
     "@toruslabs/tweetnacl-js": "^1.0.4",
     "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
