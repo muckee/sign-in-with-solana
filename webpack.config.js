@@ -3,6 +3,9 @@ const path = require("path");
 
 exports.baseConfig = {
   resolve: {
+    fallback: {
+        crypto: require.resolve("crypto-browserify"),
+    },
     alias: {
       // "bn.js": path.resolve(__dirname, "node_modules/bn.js"),
       // "lodash": path.resolve(__dirname, "node_modules/lodash-es"),
@@ -22,6 +25,7 @@ exports.baseConfig = {
 //   global: true,
 // },
 // resolve: {
-//   alias: { crypto: 'crypto-browserify', stream: 'stream-browserify', vm: 'vm-browserify' },
+//   alias: { 'crypto': 'crypto-browserify', 'stream': 'stream-browserify', 'vm': 'vm-browserify' },
 //   aliasFields: ['browser'],
 // },
+
